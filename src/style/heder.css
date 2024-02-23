@@ -1,0 +1,43 @@
+.header {
+  background-color: black;
+  width: 100%;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  color: wheat;
+}
+
+.sherch {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.sherch a {
+  margin-right: 100px;
+  color: white;
+  text-decoration: none;
+}
+
+.input {
+  border-radius: 1px;
+  width: 258px;
+  height: 37px;
+  border-radius: 10px;
+}
+
+.input-container {
+  position: relative;
+  display: inline-block;
+}
+
+.icon-placeholder {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #999;
+}/*# sourceMappingURL=heder.css.map */
