@@ -2,6 +2,7 @@
   width: 100%;
   height: 155px;
   top: 64px;
+  margin-left: 200px;
 }
 .home-container h1 {
   width: 100%;
@@ -10,7 +11,6 @@
   left: 284px;
   font-size: 60px;
   font-weight: 400;
-  text-align: center;
 }
 
 .updated {
@@ -18,7 +18,6 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin-left: 200px;
   border-top: 1px solid gray;
   border-bottom: 1px solid gray;
   width: 75%;
@@ -37,4 +36,65 @@
   align-items: center;
   justify-content: center;
   margin-left: auto;
+}
+
+.tools {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  height: 50px;
+  gap: 50px;
+}
+.tools > span {
+  font-size: 1rem;
+  font-weight: 600;
+  width: 105px;
+}
+
+.hosting {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  height: 50px;
+  gap: 5px;
+}
+.hosting > span {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 900px) {
+  .home-container {
+    margin: auto;
+    width: 95%;
+  }
+  .home-container h1 {
+    font-size: 25px;
+  }
+  .updated {
+    width: 100%;
+    gap: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    height: 40px;
+  }
+  .tools {
+    gap: 5px;
+    margin-top: 10px;
+  }
+  .tools > span {
+    font-size: 14px;
+    font-weight: 400;
+    width: 100%;
+  }
+  .hosting {
+    gap: 5px;
+  }
+  .hosting > span {
+    font-size: 14px;
+    font-weight: 400;
+    width: 100%;
+  }
 }/*# sourceMappingURL=home.css.map */

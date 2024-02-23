@@ -5,7 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  position: sticky;
+  // position: sticky;
   color: wheat;
 }
 
@@ -19,6 +19,9 @@
     margin-right: 100px;
     color: white;
     text-decoration: none;
+  }
+  .headline {
+    display: none;
   }
 }
 
@@ -39,4 +42,23 @@
   left: 10px;
   transform: translateY(-50%);
   color: #999;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 900px) {
+  .sherch {
+    a {
+      display: none;
+    }
+    .headline {
+      display: block;
+      font-size: 40px;
+      color: whitesmoke;
+    }
+  }
+  .input {
+    border-radius: 1px;
+    width: 250px;
+    height: 37px;
+    border-radius: 10px;
+  }
 }

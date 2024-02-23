@@ -1,6 +1,7 @@
 import { IoMdTime } from "react-icons/io";
 import { IoChevronDownOutline } from "react-icons/io5";
 import { LuAlertCircle } from "react-icons/lu";
+import { MdNavigateNext } from "react-icons/md";
 import './Home/home.css';
 const Home = () => {
     return (
@@ -24,6 +25,25 @@ const Home = () => {
            <span >Top Relevant</span>
             <IoChevronDownOutline />
            </div>
+          </div>
+          <div className="tools">
+            <span>Tools</span>
+            <span>AWS Builder</span>
+            <span>Start Build</span>
+            <span>Build Supplies</span>
+            <span>Tooling</span>
+            <span>BlueHosting</span>
+          </div>
+          <div className="hosting">
+            <span>Home</span>
+            <MdNavigateNext />
+            <span>Hosting for all</span>
+            <MdNavigateNext />
+            <span>Hosting</span>
+            <MdNavigateNext />
+            <span>Hosting6</span>
+            <MdNavigateNext />
+            <span>Hosting5</span>
           </div>
         </div>
     );

@@ -1,4 +1,5 @@
 import { FaSearch } from "react-icons/fa";
+import { MdViewHeadline } from "react-icons/md";
 import '../../style/heder.css';
 const Header = () => {
     return (
@@ -13,6 +14,7 @@ const Header = () => {
                     <a href="">Categories</a>
                     <a href="">Website</a>
                     <a href="">Todays deals</a>
+                    <MdViewHeadline className="headline" />
              </div>
              </div>
           
