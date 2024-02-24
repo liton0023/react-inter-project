@@ -11,9 +11,9 @@ const Product = () => {
        </div>
         <div className='img'>
             <img src={img} alt="" />
-            <span className='img-name'>Builder 1</span>
+            <p className='img-name'>Builder 1</p>
             </div>  
-            <div>
+            <div className="product-item">
               <p className='discription'><span className='discription-heading'>WixPro 72-Inch Responsive Website Builder-</span>Comprehensive Digital Platform CreationvTool,Streamlined Design Interface for Professional Websites and Online Stores(Black/Blue)</p>
               <span className='discription-heading'>Main Highlights</span>
               <p className='main'>[What You Get]: Receive the WixPro website builder suite, access to premium design templates, an extensive library of widgets and apps, and detailed step-by-step guides.</p>
@@ -24,17 +24,21 @@ const Product = () => {
                </div>
                {/* <button><IoDiamondOutline /></button> */}
             
-             <div className="review"> 
+         <div>      
+         <div className="review"> 
              <div className="reating-div">
-            
              <li className="reating">9.8</li>
              <li> <LuAlertCircle /></li>
              </div>
              <li className="exceptional">Exceptional</li>
-             <li><TiStarFullOutline /><TiStarFullOutline /><TiStarFullOutline /><TiStarFullOutline /><TiStarFullOutline />
+             <li ><TiStarFullOutline className="star" /><TiStarFullOutline className="star" /><TiStarFullOutline className="star" /><TiStarFullOutline className="star" /><TiStarFullOutline className="star" />
              </li>
-             <button>View</button>
              </div>
+         <div>
+         <button className="btn-3">View</button>
+         </div>
+         </div>
+        
 
            
         </div>

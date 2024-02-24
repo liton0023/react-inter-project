@@ -84,36 +84,47 @@
 
 @media only screen and (min-width: 300px) and (max-width: 900px) {
   .home-container {
-    margin: auto;
-    width: 95%;
+    width: 100vw;
+    text-align: center;
     h1 {
       font-size: 25px;
+      font-weight: 400;
+      height: 60px;
     }
   }
 
   .updated {
-    width: 100%;
+    width: 90vw;
     gap: 5px;
-    font-size: 14px;
+    font-size: 10px;
     font-weight: 400;
+    margin: auto;
     height: 40px;
   }
 
   .tools {
+    width: 90vw;
     gap: 5px;
     margin-top: 10px;
+    margin: auto;
     > span {
-      font-size: 14px;
+      font-size: 10px;
       font-weight: 400;
       width: 100%;
     }
   }
   .hosting {
+    width: 90vw;
     gap: 5px;
+    margin: auto;
     > span {
-      font-size: 14px;
+      font-size: 10px;
       font-weight: 400;
       width: 100%;
     }
+  }
+  .btn-1 {
+    margin: auto;
+    text-align: center;
   }
 }

@@ -4,9 +4,11 @@ import { LuAlertCircle } from "react-icons/lu";
 import { MdNavigateNext } from "react-icons/md";
 import { TfiCup } from "react-icons/tfi";
 import './Home/home.css';
+import Product from "./Product/Product";
 const Home = () => {
     return (
-        <div className="home-container">
+       <div>
+         <div className="home-container">
       <div className="home-header">
       <h1 >Best Website builders in th US</h1>
       </div>
@@ -55,6 +57,8 @@ const Home = () => {
             </span>
           </button>
         </div>
+        <Product></Product>
+       </div>
     );
 };
 
