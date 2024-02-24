@@ -1,23 +1,34 @@
+@mixin customBtn() {
+  width: 136px;
+  height: 34px;
+  top: 10px;
+  border-radius: 0 8px 8px 0;
+  border: none;
+  background-color: #ff7724;
+  cursor: pointer;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
 .home-container {
-  width: 100%;
-  height: 155px;
-  top: 64px;
-  margin-left: 200px;
+  width: 100vw;
+  text-align: center;
   h1 {
-    width: 100%;
-    height: 60px;
-    top: 102px;
-    left: 284px;
-    font-size: 60px;
+    font-size: 48px;
     font-weight: 400;
+    height: 60px;
   }
 }
+
 .updated {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  //   margin-left: 200px;
+  margin-left: 200px;
   border-top: 1px solid gray;
   border-bottom: 1px solid gray;
   width: 75%;
@@ -44,6 +55,7 @@
   align-items: center;
   justify-content: start;
   height: 50px;
+  margin-left: 200px;
   gap: 50px;
   > span {
     font-size: 1rem;
@@ -56,6 +68,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: start;
+  margin-left: 200px;
   height: 50px;
   gap: 5px;
   > span {
@@ -63,6 +76,10 @@
     font-weight: 400;
     // width: 105px;
   }
+}
+.btn-1 {
+  @include customBtn();
+  margin-left: 200px;
 }
 
 @media only screen and (min-width: 300px) and (max-width: 900px) {
