@@ -7,6 +7,21 @@
   overflow: hidden;
 }
 
+.product-container-1 {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: start;
+  align-items: start;
+  justify-content: center;
+  margin: auto;
+  padding: 0 5px;
+  margin-top: 50px;
+  margin-left: 200px;
+  width: 65%;
+  gap: 16px;
+  border: 5px solid yellow;
+}
+
 .product-container-2 {
   display: flex;
   flex-wrap: wrap;
@@ -125,8 +140,8 @@ li .star {
 
 .btn-4 {
   width: 125px;
-  height: 30px;
-  top: 20px;
+  height: 34px;
+  margin-top: 20px;
   border-radius: 0 8px 8px 0;
   border: none;
   background-color: #ff7724;
@@ -136,7 +151,7 @@ li .star {
   justify-content: center;
   align-items: center;
   gap: 5px;
-  margin-left: 170px;
+  margin-left: 200px;
 }
 
 @media only screen and (min-width: 300px) and (max-width: 900px) {
