@@ -5,14 +5,15 @@ import { MdNavigateNext } from "react-icons/md";
 import { TfiCup } from "react-icons/tfi";
 import './Home/home.css';
 import Product from "./Product/Product";
+import './Product/product.css';
 const Home = () => {
     return (
        <div>
          <div className="home-container">
-      <div className="home-header">
+      <div className="home-header pt-5">
       <h1 >Best Website builders in th US</h1>
       </div>
-        <div  className="updated">
+        <div  className="updated mt-10">
             <div className="last-update">
             <IoMdTime /> 
             <span>Last Updated</span>
@@ -50,14 +51,14 @@ const Home = () => {
             <MdNavigateNext />
             <span>Hosting5</span>
           </div>
-          <button className="btn-1">
+        </div>
+        <button className="btn-1">
           <TfiCup />
             <span>
                 Best Choice
             </span>
           </button>
-        </div>
-        <Product></Product>
+          <Product></Product>
        </div>
     );
 };

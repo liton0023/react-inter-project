@@ -13,15 +13,17 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-body {
+/* body {
   margin: 0;
   place-items: center;
   min-width: 320px;
-  width: 100vw;
   box-sizing: border-box;
   padding: 0;
   min-height: 100vh;
-}
+} */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 @media (prefers-color-scheme: light) {
   :root {

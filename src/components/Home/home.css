@@ -1,11 +1,11 @@
 .home-container {
   width: 100vw;
-  text-align: center;
 }
 .home-container h1 {
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 400;
   height: 60px;
+  margin-left: 200px;
 }
 
 .updated {
@@ -88,9 +88,10 @@
     font-size: 25px;
     font-weight: 400;
     height: 60px;
+    margin-left: 0;
   }
   .updated {
-    width: 90vw;
+    width: 100vw;
     gap: 5px;
     font-size: 10px;
     font-weight: 400;
@@ -106,7 +107,7 @@
   .tools > span {
     font-size: 10px;
     font-weight: 400;
-    width: 100%;
+    width: 100vw;
   }
   .hosting {
     width: 90vw;
@@ -116,7 +117,7 @@
   .hosting > span {
     font-size: 10px;
     font-weight: 400;
-    width: 100%;
+    width: 100vw;
   }
   .btn-1 {
     margin: auto;

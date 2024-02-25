@@ -1,0 +1,11 @@
+.product-container-2 {
+  display: grid;
+  grid-template-columns: 0fr 1fr 3fr 1fr;
+  align-items: start;
+  justify-content: center;
+  margin-top: 3vw;
+  margin-left: 150px;
+  width: 75%;
+  height: 255px;
+  gap: 10px;
+}/*# sourceMappingURL=product2.css.map */
