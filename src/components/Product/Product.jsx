@@ -1,6 +1,6 @@
 import { FaChevronDown } from "react-icons/fa";
+import { IoDiamond } from "react-icons/io5";
 import { LuAlertCircle } from "react-icons/lu";
-import { TfiCup } from "react-icons/tfi";
 import { TiStarFullOutline } from "react-icons/ti";
 import './product.css';
 import img from '/rs.png';
@@ -42,7 +42,7 @@ const Product = () => {
          </div> 
         </div>
         <button className="btn-4">
-          <TfiCup />
+          <IoDiamond />
             <span>
                 Best Choice
             </span>
