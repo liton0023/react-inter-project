@@ -387,14 +387,24 @@ footer {
   }
   .card-offer {
     width: 50vw;
+    margin: auto;
     margin-top: 10px;
   }
   .deals-card {
+    margin: auto;
+    img {
+      margin: auto;
+    }
     h3 {
       font-size: 14px;
+      margin: auto;
     }
     .card-name {
       font-size: 14px;
+      text-align: center;
+    }
+    .card-price {
+      justify-content: center;
     }
   }
   .card-btn {
@@ -404,5 +414,29 @@ footer {
     margin: auto;
     width: 200px;
     height: 30px;
+  }
+
+  .sign-up {
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    h1 {
+      width: 100%;
+      font-size: 1.5rem;
+      text-align: center;
+    }
+  }
+
+  footer {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    justify-content: center;
+    gap: 50px;
+    color: wheat;
+
+    h1 {
+      font-size: 1.5rem;
+    }
   }
 }

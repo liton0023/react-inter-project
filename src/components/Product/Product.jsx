@@ -7,7 +7,7 @@ import './product.css';
 import img from '/rs.png';
 const Product = () => {
     return (
-      <div>
+      <div className="">
            <div className='product-container-1'>
        <div>
        <h5 className="number">1</h5>
