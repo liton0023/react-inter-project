@@ -226,6 +226,16 @@ const Product = () => {
          </div>
         </div>
       </div>
+      <div className="sign-up">
+        <div>
+          <h1>
+          Sign up and get exclusive special deals
+          </h1>
+        </div>
+        <div>
+          <button className="signin-btn">Sign Up</button>
+        </div>
+      </div>
       </div>
     );
 };
