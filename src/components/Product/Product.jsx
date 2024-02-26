@@ -1,6 +1,6 @@
 import { FaChevronDown } from "react-icons/fa";
 import { FaRegStarHalfStroke } from "react-icons/fa6";
-import { IoDiamond } from "react-icons/io5";
+import { IoChevronDownOutline, IoDiamond } from "react-icons/io5";
 import { LuAlertCircle } from "react-icons/lu";
 import { TiStarFullOutline } from "react-icons/ti";
 import './product.css';
@@ -236,6 +236,29 @@ const Product = () => {
           <button className="signin-btn">Sign Up</button>
         </div>
       </div>
+      <footer>
+       <div className="footer-contact">
+       <div>
+          <h1>CATEGORIES</h1>
+          <span>Web Builder</span>
+          <span>Hosting</span>
+          <span>Data Center</span>
+          <span>Robotic-Automation</span>
+        </div> 
+        <div>
+          <h1>Contact</h1>
+          <span>Contact</span>
+          <span>Privacy Policy</span>
+          <span>Terms Of Service</span>
+          <span>Categories</span>
+          <span>About</span>
+        </div> 
+       </div>
+        <div className="footer-div-3">
+          <span>United State</span>
+          <IoChevronDownOutline />
+        </div> 
+      </footer>
       </div>
     );
 };

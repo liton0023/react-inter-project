@@ -5,6 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: auto;
   color: wheat;
 }
 
@@ -13,6 +14,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin-left: 150px;
   gap: 40px;
 }
 .sherch a {
