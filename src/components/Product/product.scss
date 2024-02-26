@@ -151,9 +151,40 @@ li {
   margin-left: 200px;
 }
 
+.main-4 {
+  margin-left: 20px;
+  width: 30vw;
+  background: #fff4ed;
+  border-radius: 12px;
+}
+.offer {
+  width: 53px;
+  height: 20px;
+  font-size: 13px;
+  color: #074786;
+}
+.main-div-4 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: start;
+  margin-left: 30px;
+  font-size: 1.5rem;
+  gap: 20px;
+  .main-4-btn {
+    width: 32px;
+    height: 32px;
+    color: #1b88f4;
+  }
+}
+
 @media only screen and (min-width: 300px) and (max-width: 900px) {
   .product-item {
     overflow: hidden;
+  }
+  .product-container-1 {
+    margin: auto;
+    width: 100%;
   }
   .discription-heading {
     font-size: 14px;
@@ -174,6 +205,10 @@ li {
     margin-top: 50px;
   }
   .btn-3 {
+    margin: auto;
+    margin-top: 50px;
+  }
+  .btn-4 {
     margin: auto;
     margin-top: 50px;
   }
