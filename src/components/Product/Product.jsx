@@ -167,6 +167,9 @@ const Product = () => {
          </div> 
         </div>
       </div>
+      <div className="related-deals">
+        <h3>Related deals you might like for</h3>
+      </div>
       </div>
     );
 };
