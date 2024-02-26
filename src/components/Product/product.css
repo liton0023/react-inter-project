@@ -152,6 +152,11 @@ li .star {
   margin-left: 200px;
 }
 
+.btn-3:hover {
+  background: #1b88f4;
+  opacity: 60%;
+}
+
 .main-4 {
   margin-left: 20px;
   width: 30vw;
@@ -187,6 +192,93 @@ li .star {
 }
 .related-deals h3 {
   font-size: 2rem;
+}
+
+.deals {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.card-info {
+  margin-left: 25px;
+}
+
+.deals-card {
+  width: 333px;
+  border-radius: 12px;
+  border: 1px solid salmon;
+}
+.deals-card h3 {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-right: 50px;
+}
+.deals-card .card-name {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.card-offer {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 5px;
+  width: 15vw;
+  align-items: center;
+  justify-content: start;
+}
+.card-offer .offer-time-1 {
+  display: inline;
+  width: 65px;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 8px;
+  background: #f2f4f7;
+  color: #074786;
+}
+.card-offer .offer-time-2 {
+  display: inline;
+  width: 110px;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 8px;
+  background: #f2f4f7;
+  color: #074786;
+}
+
+.card-price {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 5px;
+  align-items: center;
+  justify-content: start;
+  font-size: 20px;
+  font-weight: 400;
+}
+.card-price .card-off {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #9fa9b3;
+}
+.card-price .card-off span {
+  color: red;
+}
+
+.card-btn {
+  width: 292px;
+  height: 48px;
+  margin-top: 10px;
+  border-radius: 12px;
+  background: #1b88f4;
+  color: wheat;
+}
+
+.card-btn:hover {
+  background: #1b88f4;
+  opacity: 50%;
 }
 
 @media only screen and (min-width: 300px) and (max-width: 900px) {
@@ -235,5 +327,9 @@ li .star {
   .related-deals h3 {
     font-size: 1.4rem;
     text-align: center;
+  }
+  .card-offer {
+    width: 50vw;
+    margin-top: 10px;
   }
 }/*# sourceMappingURL=product.css.map */

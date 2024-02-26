@@ -169,6 +169,26 @@ const Product = () => {
       </div>
       <div className="related-deals">
         <h3>Related deals you might like for</h3>
+        <div className="deals">
+         <div className="deals-card">
+          <img src={img} alt="" />
+         <div className="card-info">
+         <div className="card-offer">
+           <p className="offer-time-1">20% Off</p>
+          <p className="offer-time-2">Limited time</p>
+          </div>
+          <h3>Webbuilder 1</h3>
+          <p className="card-name">Computer  Modern clasic with wix support</p>
+         <div className="card-price">
+         <span>$39.96</span>
+         <div className="card-off">
+         <p>$49.96<span>(20% Off)</span></p>
+         </div>
+         </div>
+         <button className="card-btn">View Deal</button>
+         </div>
+         </div>
+        </div>
       </div>
       </div>
     );
